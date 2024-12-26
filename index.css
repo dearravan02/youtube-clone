@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:rgb(156, 115, 115);
+    height: 80px;
+    
+}
+nav{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo img{
+    height: 80px;
+    
+}
+
+
