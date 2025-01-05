@@ -3,20 +3,29 @@
     padding: 0px;
 }
 header{
-    background-color:rgb(156, 115, 115);
-    height: 80px;
-    
-}
-nav{
-    position: fixed;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+    background-color:white;
 }
-
-.logo img{
-    height: 80px;
-    
+.start{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
+.youtubehome img{
+    padding: 15px;
+    height: 38px;
+}
+.center img{
+    height: 30px;
+    opacity: 5;
+}
+.end a{
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: bold;
+}
