@@ -1,31 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 56px;
-    padding: 0 16px;
-    background-color:white;
+    height: 50px;
+ 
+   
 }
 .start{
+    height: max-content;
     display: flex;
     margin-left: 5px;
     justify-content: space-between;
     align-items: center;
 }
+.youtubehome{
+    display: flex;
+}
 .youtubehome img{
     padding: 15px;
-    height: 38px;
+    height: 54px;
+    width: 64px;
 }
+.youtubehome span{
+    align-self: center;
+    font-family: "Oswald", serif;
+
+}
+
 .center img{
     height: 30px;
     opacity: 5;
 }
-.end a{
+.center{
+    display: flex;
+    width: 50%;
+}
+
+.searchbar{
+    width: 70%;
+    border-radius: 50px;
+    background-color: #333;
+    display: flex;
+    border: 1px solid #333;
+}
+.searchbar input{
+    padding-left: 10px;
+    width: 90%;
+    border-radius: 50px 0 0 50px;
+    background-color: #000;
+    border: 1px solid #333;
+}
+.searchbar img{
+    background-color: #333;
+}
+.mick{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 50px ;
+    background-color: #000;
+    border:1px solid #333;
+
+} 
+.end{
+    display: flex;
+    padding-right: 10px;
+    gap: 30px;
     justify-content: space-between;
-    text-decoration: none;
-    font-weight: bold;
+    align-items: center;
+}
+.create{
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid #333;
+    padding: 10px;
+}
+.profile{
+    width: 20px;
+    height: 30px;
+    border-radius: 50px;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.leftbox{
+    width: 15%;
+    border: 1px solid black;
+    height: 90vh;
+    left: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightcontent{
+    width:85%;
+}
+.first{
+    color: #f1f1f1;
+   font: 16px Roboto , Noto;
+   width: 144px; 
+   padding: 12px;
+   border-color:#333 ;
+}
+
+.home{
+    display: flex;
+    gap: 5px;
+}
+.home img{
+    height: 20px;
+}
+.home img{
+    height: 20px;
+
+}
+hr{
+    border-color: #333;
+    width: 100%;
+}
+.home{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.home:hover{
+    background-color: #333;
 }
